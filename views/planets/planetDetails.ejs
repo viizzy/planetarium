@@ -1,0 +1,20 @@
+<%- include('../includes/head.ejs') %>
+        <div class="planet-info container">
+            <div class="planet-info-title">
+                <h2 class="info-title">
+                    <%= planet.name %>
+                </h2>
+                <p class="planet-info-content">
+                    <%= planet.randomInfo %>
+                </p>
+                <h5 class="distance">
+                     Distance from Sun: <%= planet.distanceFromSun %><br>
+                     Distance from Moon: <%= planet.distanceFromMoon %><br>
+                     Color:  <%= planet.Color %><br>
+                     <a href="#" class="distance-btn btn btn-lg">Read More</a>
+                     <a href="#" class="distance-btn btn btn-lg">Contact creator&nbsp; <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                     
+                </h5>
+                </div>
+        </div>
+        <%- include('../includes/footer.ejs') %>

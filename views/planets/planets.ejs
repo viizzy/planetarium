@@ -1,0 +1,19 @@
+<%- include('../includes/head.ejs') %>
+<section class="planets-page container">
+    <h1 class="page-title" data-aos="fade-down-right">Welcome to the Planets 👋!</h1>
+    <div class="planets container">
+        <% for(const planet of planets) { %>
+            <div class="planet">
+                <h2 class="planets-title">
+                    <%= planet.name %>
+                </h2>
+                <div class="planet-content d-flex flex-column justify-content-center" data-aos="fade-up">
+                    <p class="planets-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                <a href=<%="/planets/" + planet.id %> class="btn btn-lg">Planet Info &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <% } %>
+    </div>
+</section>
+
+    <%- include('../includes/footer.ejs') %>

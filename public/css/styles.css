@@ -1,0 +1,127 @@
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+.navbar-brand:hover{
+    color: #2596be;
+}
+
+.navbar{
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    color: #2596be;
+    transition: 1s;
+}
+
+.home-page {
+    padding-top: 12%;
+}
+
+.home-content h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.home-content p {
+    font-size: 23px;
+    color: #fff;
+    padding-top: 8px;
+}
+
+.btn {
+    background-color: #2e8d99;
+    border-radius: 23px 23px 23px;
+    color: #000;
+    margin: 5px;
+}
+
+.social {
+    color: #000;
+    letter-spacing: 12px;
+}
+
+.social:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+.planets-page {
+    color: #fff;
+}
+
+.planets-page {
+    padding-top: 100px;
+}
+
+.planets-title {
+    color: #b67285;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.page-title {
+    padding-bottom: 60px;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.planet {
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.planets-text {
+    font-size: 19px;
+    padding: 10px;
+}
+
+.info-title {
+    color: #b67285;
+    font-size: 80px;
+}
+
+.planet-info {
+    padding-top: 100px;
+}
+
+.planet-info-content {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+.distance {
+    color: #2e8d99;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.distance-btn {
+    position: relative;
+    top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-page {
+      position: relative;
+      top: 100px;
+    }
+  }
