@@ -1,2 +1,2 @@
 # planetarium
-Web application about planets.
+web app.
